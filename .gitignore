@@ -2,6 +2,7 @@
 *.exe
 *.out
 *.app
+*.mod
 
 # Backup/Data Files
 *.bak
