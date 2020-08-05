@@ -1,0 +1,12 @@
+# Executables
+*.exe
+*.out
+*.app
+
+# Backup/Data Files
+*.bak
+*/db/*
+*/output_files/*
+*/incremental_db/*
+*/simulation/*
+*.data

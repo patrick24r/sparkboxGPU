@@ -1,0 +1,8 @@
+
+State Machine - |layerRamTop|state
+Name state.STATE_SDRAM_READ_RESET state.STATE_SDRAM_WRITE state.STATE_CACHE_READ state.STATE_IDLE state.STATE_SDRAM_READ 
+state.STATE_IDLE 0 0 0 0 0 
+state.STATE_CACHE_READ 0 0 1 1 0 
+state.STATE_SDRAM_WRITE 0 1 0 1 0 
+state.STATE_SDRAM_READ 0 0 0 1 1 
+state.STATE_SDRAM_READ_RESET 1 0 0 1 0 
