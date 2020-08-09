@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP4CE22F17) Path("D:/sparkboxHD/gpu_sv/output_files/") File("gpu.sof") MfrSpec(OpMask(1));
+		Device PartName(EP4CE22F17) Path("D:/sparkboxGPU/output_files/") File("gpu.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

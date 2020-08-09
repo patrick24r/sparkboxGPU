@@ -4,467 +4,119 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "rdy",
+					"name" : "GPIO_0[0]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[0]",
+					"name" : "GPIO_0[1]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[1]",
+					"name" : "GPIO_0[2]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[2]",
+					"name" : "GPIO_0[3]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[3]",
+					"name" : "GPIO_0[4]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[4]",
+					"name" : "GPIO_0[5]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[5]",
+					"name" : "GPIO_0[6]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[6]",
+					"name" : "GPIO_0[7]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[7]",
+					"name" : "GPIO_0[8]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[8]",
+					"name" : "GPIO_0[9]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[9]",
+					"name" : "GPIO_0[10]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[10]",
+					"name" : "GPIO_0[11]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[11]",
+					"name" : "GPIO_0[12]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[12]",
+					"name" : "GPIO_0[13]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[13]",
+					"name" : "GPIO_0[14]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[14]",
+					"name" : "GPIO_0[15]",
 					"strict" : false
 				},
 				{
-					"name" : "read_data[15]",
+					"name" : "GPIO_0[16]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[0]",
+					"name" : "GPIO_0[17]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[1]",
+					"name" : "GPIO_0[18]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[2]",
+					"name" : "GPIO_0[19]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[3]",
+					"name" : "GPIO_0[20]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[4]",
+					"name" : "GPIO_0[21]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[5]",
+					"name" : "GPIO_0[22]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[6]",
+					"name" : "GPIO_0[23]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[7]",
+					"name" : "GPIO_0[24]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[8]",
+					"name" : "GPIO_0[26]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[9]",
+					"name" : "GPIO_0[27]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[10]",
+					"name" : "GPIO_0[28]",
 					"strict" : false
 				},
 				{
-					"name" : "sdram_addr[11]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_addr[12]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_ba[0]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_ba[1]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dqm[0]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dqm[1]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_ras_n",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_cas_n",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_clk",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_we_n",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[0]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[1]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[2]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[3]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[4]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[5]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[6]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[7]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[8]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[9]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[10]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[11]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[12]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[13]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[14]",
-					"strict" : false
-				},
-				{
-					"name" : "sdram_dq[15]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_read_en",
-					"strict" : false
-				},
-				{
-					"name" : "clk_n",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_read_en",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_en",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layerId[0]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layerId[1]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layerId[2]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[16]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[15]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[14]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[13]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[12]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[11]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[10]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[9]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[8]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[7]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[6]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[5]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[4]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[3]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[2]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[1]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layer[3]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layer[2]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layer[0]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layer[1]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_layer[4]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[17]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[18]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[23]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[22]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[21]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[20]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[19]",
-					"strict" : false
-				},
-				{
-					"name" : "pipe_addr_bytes[24]",
-					"strict" : false
-				},
-				{
-					"name" : "pipeline_clk",
-					"strict" : false
-				},
-				{
-					"name" : "rst",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[1]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[0]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[3]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[2]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[5]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[4]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[7]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_layerId[6]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[0]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[1]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[2]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[3]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[4]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[5]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[6]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[7]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[8]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[9]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[10]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[11]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[12]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[13]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[14]",
-					"strict" : false
-				},
-				{
-					"name" : "ctrl_write_data[15]",
+					"name" : "KEY[0]",
 					"strict" : false
 				}
 			]
