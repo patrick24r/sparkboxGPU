@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Sun Aug 09 16:31:13 2020
+Analysis & Synthesis Status : Successful - Thu Aug 20 05:40:22 2020
 Quartus Prime Version : 19.1.0 Build 670 09/22/2019 Patches 0.02std SJ Lite Edition
 Revision Name : gpu
-Top-level Entity Name : fpgaLcdLoadingtester
+Top-level Entity Name : simLcdTester
 Family : Cyclone IV E
-Total logic elements : 449
-    Total combinational functions : 354
-    Dedicated logic registers : 221
-Total registers : 221
-Total pins : 71
+Total logic elements : 72
+    Total combinational functions : 48
+    Dedicated logic registers : 58
+Total registers : 58
+Total pins : 57
 Total virtual pins : 0
-Total memory bits : 134,144
+Total memory bits : 0
 Embedded Multiplier 9-bit elements : 0
-Total PLLs : 1
+Total PLLs : 0

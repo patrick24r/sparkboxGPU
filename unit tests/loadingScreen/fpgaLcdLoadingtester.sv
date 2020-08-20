@@ -1,6 +1,7 @@
 module fpgaLcdLoadingtester(
 	input CLOCK_50,
 	input [1:0] KEY,
+	output [1:0] LED,
 	inout [33:0] GPIO_0,
 	inout [33:0] GPIO_1
 );
@@ -23,6 +24,8 @@ logic bsy;
 
 logic buttonSt, newFrame, pixelReq, fifoempty, fifofull;
 
+
+assign LED[0] = buttonSt;
 initial begin
 	buttonSt = 0;
 end

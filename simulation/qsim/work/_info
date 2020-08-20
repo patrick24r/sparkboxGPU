@@ -97,28 +97,28 @@ R9
 R10
 nflash@address@calc_vlg_vec_tst
 vhard_block
-Z13 !s110 1596403169
+Z13 !s110 1597916575
 !i10b 1
-!s100 4:n^]WFRYXPPm0n:al4nK2
-IFggD_mm^zk:2VgRISPc`J3
+!s100 ^:;DU6M4`aZcQDH?ZgLjY0
+IE8DPT;VVCFDAjbc6B]4M`1
 R2
-R0
-Z14 w1596403168
+Z14 dD:/sparkboxGPU/simulation/qsim
+Z15 w1597916574
 R3
 R4
-L0 52172
+L0 3390
 R6
 r1
 !s85 0
 31
-Z15 !s108 1596403169.000000
+Z16 !s108 1597916575.000000
 R7
 R8
 !i113 1
 R9
 R10
 vlayerRamCache
-Z16 !s110 1595804360
+Z17 !s110 1595804360
 !i10b 1
 !s100 CGJchf?iPckj=FJj?n;F02
 I__z0>nMU9kD46:@c;aJLe1
@@ -132,7 +132,7 @@ R6
 r1
 !s85 0
 31
-Z17 !s108 1595804360.000000
+Z18 !s108 1595804360.000000
 R7
 R8
 !i113 1
@@ -140,7 +140,7 @@ R9
 R10
 nlayer@ram@cache
 vlayerRamCache_vlg_vec_tst
-R16
+R17
 !i10b 1
 !s100 :3AIdd2SmU<R]2CfUA36M3
 IKW:?;O6<>[;ZDIHGkQID03
@@ -154,7 +154,7 @@ R6
 r1
 !s85 0
 31
-R17
+R18
 !s107 layerRamCache.vwf.vt|
 !s90 -work|work|layerRamCache.vwf.vt|
 !i113 1
@@ -162,13 +162,13 @@ R9
 R10
 nlayer@ram@cache_vlg_vec_tst
 vlayerRamTop
-R13
+Z19 !s110 1596403169
 !i10b 1
 !s100 bL2aOfemT`68eI_1<LfTJ3
 Id`YXaHnZ<`;lUXN7ZUQ=I2
 R2
 R0
-R14
+w1596403168
 R3
 R4
 R5
@@ -176,7 +176,7 @@ R6
 r1
 !s85 0
 31
-R15
+Z20 !s108 1596403169.000000
 R7
 R8
 !i113 1
@@ -184,7 +184,7 @@ R9
 R10
 nlayer@ram@top
 vlayerRamTop_vlg_vec_tst
-R13
+R19
 !i10b 1
 !s100 2e<eenZ^IzYAaLWhCiaAS0
 IQ6cWiEcn@LHk_L<^FbF:^1
@@ -198,7 +198,7 @@ R6
 r1
 !s85 0
 31
-R15
+R20
 !s107 layerRamTop.vwf.vt|
 !s90 -work|work|layerRamTop.vwf.vt|
 !i113 1
@@ -227,14 +227,14 @@ R8
 R9
 R10
 nlayer@registers
-vpixelCounter
-Z18 !s110 1593972026
+vlcdPixelWriter
+!s110 1597610379
 !i10b 1
-!s100 OF]z`JQMcl]_WkMN06CaL1
-I9^>I;IeDL<=0T:ZLV3VDm0
+!s100 VAh0zRIRQV8Lnc;HCP`=13
+IzO?HSoSSJG];`NhhBLKN?1
 R2
-R0
-Z19 w1593972025
+R14
+w1597610378
 R3
 R4
 R5
@@ -242,7 +242,29 @@ R6
 r1
 !s85 0
 31
-Z20 !s108 1593972026.000000
+!s108 1597610378.000000
+R7
+R8
+!i113 1
+R9
+R10
+nlcd@pixel@writer
+vpixelCounter
+Z21 !s110 1593972026
+!i10b 1
+!s100 OF]z`JQMcl]_WkMN06CaL1
+I9^>I;IeDL<=0T:ZLV3VDm0
+R2
+R0
+Z22 w1593972025
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z23 !s108 1593972026.000000
 R7
 R8
 !i113 1
@@ -250,13 +272,13 @@ R9
 R10
 npixel@counter
 vpixelCounter_vlg_vec_tst
-R18
+R21
 !i10b 1
 !s100 53jd9lnk@0IU7F3h]MKOb3
 Ijn;[>KoT5nL8fl32S^S281
 R2
 R0
-R19
+R22
 8pipe_1_pixelCounter.vwf.vt
 Fpipe_1_pixelCounter.vwf.vt
 R11
@@ -264,7 +286,7 @@ R6
 r1
 !s85 0
 31
-R20
+R23
 !s107 pipe_1_pixelCounter.vwf.vt|
 !s90 -work|work|pipe_1_pixelCounter.vwf.vt|
 !i113 1
@@ -272,7 +294,7 @@ R9
 R10
 npixel@counter_vlg_vec_tst
 vpixelFifo
-Z21 !s110 1595632627
+Z24 !s110 1595632627
 !i10b 1
 !s100 Z3=f_iF]SkXi_dP0H8kE23
 IGzHfIPfa;6Yj_aGzf^]dG1
@@ -286,7 +308,7 @@ R6
 r1
 !s85 0
 31
-Z22 !s108 1595632627.000000
+Z25 !s108 1595632627.000000
 R7
 R8
 !i113 1
@@ -294,7 +316,7 @@ R9
 R10
 npixel@fifo
 vpixelFifo_vlg_vec_tst
-R21
+R24
 !i10b 1
 !s100 Hj@>_gJ6Gch_W[]<Nk__G0
 IU`9fLZ<=l7Uf=8N64V]L`0
@@ -308,7 +330,7 @@ R6
 r1
 !s85 0
 31
-R22
+R25
 !s107 fifoSim.vwf.vt|
 !s90 -work|work|fifoSim.vwf.vt|
 !i113 1
@@ -316,13 +338,13 @@ R9
 R10
 npixel@fifo_vlg_vec_tst
 vramAddressCalc
-Z23 !s110 1594584180
+Z26 !s110 1594584180
 !i10b 1
 !s100 VC>4CiTjWf3@HR^76gB`V1
 Ij_Zzc1K669VTo?ACj3zcE1
 R2
 R0
-Z24 w1594584179
+Z27 w1594584179
 R3
 R4
 R5
@@ -330,7 +352,7 @@ R6
 r1
 !s85 0
 31
-Z25 !s108 1594584180.000000
+Z28 !s108 1594584180.000000
 R7
 R8
 !i113 1
@@ -338,13 +360,13 @@ R9
 R10
 nram@address@calc
 vramAddressCalc_vlg_vec_tst
-R23
+R26
 !i10b 1
 !s100 ERUdd1=>f2za]Ym8VgFgY0
 I>T`7Z8@6b3K=298kkkgJV0
 R2
 R0
-R24
+R27
 8ramAddressCalc.vwf.vt
 FramAddressCalc.vwf.vt
 R11
@@ -352,7 +374,7 @@ R6
 r1
 !s85 0
 31
-R25
+R28
 !s107 ramAddressCalc.vwf.vt|
 !s90 -work|work|ramAddressCalc.vwf.vt|
 !i113 1
@@ -360,7 +382,7 @@ R9
 R10
 nram@address@calc_vlg_vec_tst
 vsimLayerHeaderTest
-Z26 !s110 1594335989
+Z29 !s110 1594335989
 !i10b 1
 !s100 6Q:1?o0o1;[@Ud_:431B`2
 I:1oF[f4Am9]F1cj;><H:P1
@@ -382,7 +404,7 @@ R9
 R10
 nsim@layer@header@test
 vsimLayerHeaderTest_vlg_vec_tst
-R26
+R29
 !i10b 1
 !s100 B`I_HWoN;5R6Ij53NCkW:0
 I7X^o?J1m0M:CVl0Hlh?[L3
@@ -403,3 +425,47 @@ r1
 R9
 R10
 nsim@layer@header@test_vlg_vec_tst
+vsimLcdTester
+R13
+!i10b 1
+!s100 eJd`@B<`aRe=98:GJ9YCF3
+IBNoB=H<0zjUO3iAal7eAf1
+R2
+R14
+R15
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+R16
+R7
+R8
+!i113 1
+R9
+R10
+nsim@lcd@tester
+vsimLcdTester_vlg_vec_tst
+R13
+!i10b 1
+!s100 AzS<mJGO]d[7SG;<Z@ARY2
+IkFG`UoChVZf6?GBJbC]RS0
+R2
+R14
+w1597916573
+8lcdPixelWriter.vwf.vt
+FlcdPixelWriter.vwf.vt
+R11
+R6
+r1
+!s85 0
+31
+R16
+!s107 lcdPixelWriter.vwf.vt|
+!s90 -work|work|lcdPixelWriter.vwf.vt|
+!i113 1
+R9
+R10
+nsim@lcd@tester_vlg_vec_tst
