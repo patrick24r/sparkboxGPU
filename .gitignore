@@ -6,6 +6,7 @@
 
 # Backup/Data Files
 *.bak
+*.qpg
 */db/*
 */output_files/*
 */incremental_db/*
